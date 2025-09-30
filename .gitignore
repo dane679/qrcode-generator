@@ -1,0 +1,51 @@
+# Windows & Editor junk files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# VSCode
+.vscode/*
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Ignore transcripts / generated outputs
+output/
+*.json
+*.txt
+!requirements.txt
+*.svg
+*.png
+!example.txt
+
